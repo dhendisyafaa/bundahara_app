@@ -10,7 +10,7 @@ const ProductCard = ({ product }) => {
           {product.description}
         </div>
       )}
-      <div className="flex flex-col gap-10 p-3 w-[250px] h-fit shadow-md rounded-2xl">
+      <div className="flex flex-col gap-10 p-3 w-[300px] sm:w-[250px] h-fit shadow-md rounded-2xl">
         <div className="space-y-3">
           <img
             src={product.image}
